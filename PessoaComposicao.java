@@ -1,0 +1,21 @@
+package RelaçõesClasses;
+
+public class PessoaComposicao {
+	private String nome;
+	private Coracao coracao;
+
+	public PessoaComposicao(String nome, int coracao) {
+		this.nome = nome;
+		this.coracao = coracao;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getCoracao() {
+		return coracao.getBatimentos();
+	}
+}
