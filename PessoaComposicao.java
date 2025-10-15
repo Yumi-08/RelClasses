@@ -6,7 +6,7 @@ public class PessoaComposicao {
 
 	public PessoaComposicao(String nome, int coracao) {
 		this.nome = nome;
-		this.coracao = coracao;
+		this.coracao = new Coracao(coracao);
 	}
 
 	public String getNome() {
